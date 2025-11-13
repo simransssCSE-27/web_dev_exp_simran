@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #f14481;
+}
+
+.card {
+  background: #ddf339;
+  width: 250px;
+  margin: 50px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: rgb(102, 38, 242);
+  font-weight: bold;
+}
+
+button {
+  background: rgb(54, 5, 119);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
