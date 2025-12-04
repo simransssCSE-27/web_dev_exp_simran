@@ -1,0 +1,25 @@
+.parent-em{
+    font-size:20px;
+    padding:30px;
+    background:pink;
+}
+.child-em{
+    font size: 3em; 
+    margin-top:2em;
+    background:lightblue;
+}
+.root{font-size: 16px;
+    background:orchid;
+}
+.box{font-size:3em;
+padding:0.5rem;
+background:yellow;}
+.box-rem{
+    font-size:2rem;
+    padding: 1rem;
+    background:lightgreen;}
+    .box-vhvw
+   { width:50vw;
+    height:30vh;
+    background:rgb(98, 63, 91)
+    }
