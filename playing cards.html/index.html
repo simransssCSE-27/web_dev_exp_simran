@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playing Cards</title>
+
+  <style>
+    /* Container */
+    #playing-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* Card */
+    .card {
+      width: 150px;
+      height: 220px;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 24px;
+    }
+
+    /* Card sections */
+    .left {
+      align-self: flex-start;
+    }
+
+    .middle {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .right {
+      align-self: flex-end;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main id="playing-cards">
+
+    <div class="card">
+      <div class="left">A♠</div>
+      <div class="middle">
+        <span>♠</span>
+        <span>♠</span>
+        <span>♠</span>
+      </div>
+      <div class="right">A♠</div>
+    </div>
+
+    <div class="card">
+      <div class="left">K♥</div>
+      <div class="middle">
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+      </div>
+      <div class="right">K♥</div>
+    </div>
+
+    <div class="card">
+      <div class="left">Q♦</div>
+      <div class="middle">
+        <span>♦</span>
+        <span>♦</span>
+        <span>♦</span>
+      </div>
+      <div class="right">Q♦</div>
+    </div>
+
+  </main>
+
+</body>
+</html>
