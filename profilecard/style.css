@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Main container using flexbox */
+.container {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 100vh;
+}
+
+/* Card design */
+.card {
+    display: flex;
+    flex-direction: column;    /* vertical layout */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin: 5px 0;
+}
+
+.course {
+    color: #007bff;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
