@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Attendance Calculator</h1>
+
+    <label>Total Classes</label>
+    <input type="number" id="total" placeholder="Example: 40">
+
+    <label>Classes Attended</label>
+    <input type="number" id="attended" placeholder="Example: 30">
+
+    <label>Required Percentage</label>
+    <input type="number" id="required" placeholder="Example: 75">
+
+    <button onclick="calculateAttendance()">Calculate</button>
+
+    <div id="result"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
